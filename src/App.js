@@ -3,27 +3,22 @@ import './App.css';
 import BrandHeader from './Components/BrandHeader/BrandHeader';
 import Cards from './Components/Cards/Cards';
 import CardHolder from './Components/Cards/CardHolder';
-/*
-
-<CardHolder>
-<Cards></Cards>
-<Cards></Cards>
-<Cards></Cards>
-<Cards></Cards>
-</CardHolder>
-*/
+import Login from './Components/Login/Login';
 
 function App() {
   return (
     <section>
-      <h1>Hola Mundo !!!</h1>
+      <BrandHeader></BrandHeader>
+      <section>
+        <br></br>
+        <Login></Login>
+      </section>
       <CardHolder>
         <Cards></Cards>
         <Cards></Cards>
         <Cards></Cards>
         <Cards></Cards>
       </CardHolder>
-      
     </section>
   );
 }
