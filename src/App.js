@@ -4,23 +4,25 @@ import BrandHeader from './Components/BrandHeader/BrandHeader';
 import Cards from './Components/Cards/Cards';
 import CardHolder from './Components/Cards/CardHolder';
 import Login from './Components/Login/Login';
+import Image from './Components/Images/Image';
+import Container from './Components/Login/container';
+// <img src="https://cdn.pensador.com/img/imagens/pe/ns/pensador_domingo_a_tarde_c.jpg" alt="PlaceHolder Img long1" />
 
 function App() {
   return (
     <section>
       <BrandHeader></BrandHeader>
-      <section>
-        <br></br>
-        <Login></Login>
-      </section>
+     
+      <Image></Image>
+      <Login></Login>
       <CardHolder>
         <Cards></Cards>
         <Cards></Cards>
-        <Cards></Cards>
-        <Cards></Cards>
       </CardHolder>
+      
     </section>
   );
 }
 
+//<Image></Image>
 export default App;

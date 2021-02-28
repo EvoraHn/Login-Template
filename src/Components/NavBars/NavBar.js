@@ -1,7 +1,7 @@
 import NavBarItems from "./NavBarItems";
 import "./NavBar.css";
 function NavBar() {
-  let dummyData = [
+  let dummyData  = [
     { label: "Home", uri: "#home" },
     { label: "Tarjetas", uri: "#cards" },
     { label: "Acerca", uri: "#Acerca" },

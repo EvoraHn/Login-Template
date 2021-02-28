@@ -23,6 +23,7 @@ function Login(){
     setFormData({ ...formData, [name]: value , [name + "Error"]: error});
   }
   return (
+    
     <Form>
       <FormField
         type="text"
@@ -44,7 +45,7 @@ function Login(){
         error={formData.passwordError}
         placeholder="Contraseña"
       ></FormField>
-      <FormAction
+       <FormAction
         caption="Enviar"
         onClick={
           (e)=>{
@@ -57,6 +58,9 @@ function Login(){
       >
       </FormAction>
     </Form>
+    
+    
+    
   );
 }
 

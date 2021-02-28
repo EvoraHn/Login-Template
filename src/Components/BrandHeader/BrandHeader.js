@@ -1,11 +1,14 @@
 import NavBar from "../NavBars/NavBar";
 import Brand from "./Brand";
 import "./BrandHeader.css";
+//title="Mi App con react."
 function BrandHeader({ children }){
   return (
     <header>
-      <Brand title="Mi App con react."></Brand>
+      
+      <img class="logo"src="https://upload.wikimedia.org/wikipedia/en/0/02/PicsArt_company_logo.png"/>
       <NavBar></NavBar>
+      
     </header>
   );
 }
