@@ -83,24 +83,28 @@ function Container({ title }){
       //
       setFormData({ ...formData, [name]: value , [name + "Error"]: error});
     }
+    //<div class="grid grid-flow-col grid-rows-2 grid-cols-2 gap-4">
+
+
+    //https://img2.freepng.es/20180322/wxq/kisspng-the-evil-monkey-emoji-three-wise-monkeys-clip-art-evil-monkey-cliparts-5ab353b18057b9.5520305015217018095257.jpg
     return (
-      <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-4">
-          <div>
-              <img src="https://cdn.pensador.com/img/imagens/pe/ns/pensador_domingo_a_tarde_c.jpg"  alt="PlaceHolder Img long1" />
+      <div class="grid gap-0.001 grid-cols-1 md:grid-cols-2 p-2">
+      
+          <div class="imagen">
+              <img src="https://miro.medium.com/max/382/1*2us2ZKD01bpesGFHGU4caQ.gif"  alt="PlaceHolder Img long1" />
           </div>
           
           <div class="row-start-1 col-start-2 col-span-2 items-center text-center justify-items-center  ">
             <div class="formulario">
                 <FormField
-                  
                   type="text"
                   id="username"
                   fname="username"
                   onChange={myOnChange}
-                  caption="Correo Electrónico : "
+                  caption="Correo : "
                   value={formData.username}
                   error={formData.usernameError}
-                  placeholder="   Tu correo"
+                  placeholder="   Escribe tu correo"
                 ></FormField>
                 
                 
@@ -132,13 +136,7 @@ function Container({ title }){
                 >
                 </FormAction>
             </div>
-          
-           
-          
-          
           </div>
-          
-
       </div>
     );
   }

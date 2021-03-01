@@ -1,4 +1,17 @@
 .formulario{
     align-items: center;
     justify-content: center;
+    justify-items: center;
+    align-content: center;
+    padding: 3em;
+    text-align:justify;
+    width: auto;
+    height: 50%;
+    margin-top: 20%;
+}
+.imagen{
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 50%;
+    height: auto;
 }

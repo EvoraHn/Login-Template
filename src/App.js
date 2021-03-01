@@ -13,8 +13,9 @@ function App() {
     <section>
       <BrandHeader></BrandHeader>
      
-      <Image></Image>
-      <Login></Login>
+      <Container>
+        
+      </Container>
       <CardHolder>
         <Cards></Cards>
         <Cards></Cards>
@@ -24,5 +25,21 @@ function App() {
   );
 }
 
-//<Image></Image>
+/*<Image></Image>
+
+<Image></Image>
+      <Login></Login>
+
+
+
+
+*/
+
+
+
+
+
+
+
+
 export default App;
